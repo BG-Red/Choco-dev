@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+  <id>zoom-outlook-plugin</id>
+    <version>5.15.5.926</version>
+    <title>Zoom-Outlook-Plugin Client for Meetings</title>
+    <authors>Zoom Video Communications, Inc.</authors>
+    <owners>Zach Pierce</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://zoom.us/pricing</licenseUrl>
+    <projectUrl>https://zoom.us/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/BG-Red/Choco-dev/main/icons/zoom.png</iconUrl>
+    <description>Zoom-Outlook-Plugin Installation</description>
+    <summary>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.</summary>
+    <copyright>Copyright ©2020 Zoom Video Communications, Inc. All rights reserved.</copyright>
+    <tags>zoom admin webinar webcam meeting</tags>
+    <docsUrl>https://support.zoom.us/hc/en-us</docsUrl>
+    <bugTrackerUrl>https://support.zoom.us/hc/en-us/requests/new</bugTrackerUrl>
+  </metadata>
+</package>

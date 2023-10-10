@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>zoom-vdi</id>
+    <version>5.16.0.24280</version>
+    <title>Zoom-VDI Client for Meetings</title>
+    <authors>Zoom Video Communications, Inc.</authors>
+    <owners>Zach Pierce</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://zoom.us/pricing</licenseUrl>
+    <projectUrl>https://zoom.us/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/BG-Red/Choco-dev/main/icons/zoom.png</iconUrl>
+    <description>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.
+      solution offers the best video, audio, and wireless screen-sharing experience across Windows, Mac, iOS, Android, Blackberry, Linux, Zoom Rooms, and H.323/SIP
+      room systems. Founded in 2011, Zoom's mission is to develop a people-centric cloud service that transforms the real-time collaboration experience and improves
+      the quality and effectiveness of communications forever.
+
+      ### Package Specific
+      #### Package Parameters
+      The following package parameters can be set:
+
+      * `/DisableRestartManager` - Wait until the in-progress meeting is over before installing
+      * `/NoAutoUpdate` - Remove the Check for Updates option in the client
+      * `/NoDesktopShortcut` - Prevent the creation of a desktop shortcut on install or update
+      * `/NoInstallIfRunning` - Abort installation if Zoom is running
+      * `/SilentStart` - Automatically start client in the system tray after reboot
+      * `/SSOHost:` - Set the SSO URL
+
+      To pass parameters, use `--params "''"` (e.g. `choco install packageID [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+      To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.</description>
+    <summary>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.</summary>
+    <copyright>Copyright ©2020 Zoom Video Communications, Inc. All rights reserved.</copyright>
+    <tags>zoom admin webinar webcam meeting</tags>
+    <docsUrl>https://support.zoom.us/hc/en-us</docsUrl>
+    <bugTrackerUrl>https://support.zoom.us/hc/en-us/requests/new</bugTrackerUrl>
+  </metadata>
+</package>
